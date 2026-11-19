@@ -14,6 +14,7 @@ dependencies = [
     "pandas>=3.1.1",
     "scikit-learn>=1.9.1",
     "seaborn>=0.13.2",
+    "tensorflow>=2.21.0",
 ]
 
 [project.scripts]
@@ -22,3 +23,6 @@ sistemas-aprendizaje-automatico = "sistemas_aprendizaje_automatico:main"
 [build-system]
 requires = ["uv_build>=0.13.6,<0.14.0"]
 build-backend = "uv_build"
+
+[tool.uv]
+package = false
